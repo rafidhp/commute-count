@@ -44,7 +44,11 @@ export default function RoutesSection() {
     <section className="space-y-4">
       <div className="flex items-center justify-between h-10">
         <h2 className="text-orange-2xl text-lg font-semibold tracking-tight">
+<<<<<<< HEAD
+          Rute Komuter Tersimpan
+=======
           Rute Perjalanan Tersimpan
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
         </h2>
 
         <Button
@@ -60,12 +64,21 @@ export default function RoutesSection() {
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-left">
             <thead>
+<<<<<<< HEAD
+              <tr className="border-b border-slate-100 text-xs font-medium text-slate-400">
+                <th className="px-6 py-4 font-medium">Nama Rute</th>
+                <th className="px-6 py-4 font-medium">Jarak PP</th>
+                <th className="px-6 py-4 font-medium">Rata-rata Macet</th>
+                <th className="px-6 py-4 font-medium">Std Deviasi</th>
+                <th className="px-6 py-4 font-medium">Status</th>
+=======
               <tr className="border-b border-slate-100 text-xs md:text-sm font-medium text-slate-400">
                 <th className="px-6 py-4 font-medium">Nama Rute</th>
                 <th className="px-6 py-4 font-medium text-center">Jarak Pulang-Pergi (PP)</th>
                 <th className="px-6 py-4 font-medium text-center">Rata-Rata Macet</th>
                 <th className="px-6 py-4 font-medium text-center">Std Deviation</th>
                 <th className="px-6 py-4 font-medium text-center">Status</th>
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 <th className="w-12 px-6 py-4"></th>
               </tr>
             </thead>
@@ -94,11 +107,19 @@ export default function RoutesSection() {
                     </td>
                     <td className="px-6 py-4 flex items-center justify-center">
                       {isActive ? (
+<<<<<<< HEAD
+                        <span className="bg-orange-sm text-orange-xl inline-flex items-center rounded-full px-3 py-1 text-xs font-medium">
+                          Aktif
+                        </span>
+                      ) : (
+                        <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-500">
+=======
                         <span className="bg-orange-sm text-orange-xl inline-flex items-center rounded-full px-3 py-1 text-sm font-medium border border-orange-md">
                           Aktif
                         </span>
                       ) : (
                         <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-500">
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                           Tersimpan
                         </span>
                       )}

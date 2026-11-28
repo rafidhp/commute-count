@@ -10,7 +10,11 @@ export default function ComparisonSection() {
           Perbandingan Statistik Rute A/B
         </h2>
         <p className="text-xs text-slate-400">
+<<<<<<< HEAD
+          Kendaraan sama · 22 hari komuter · 5.000 percobaan per rute
+=======
           Kendaraan sama · 22 hari perjalanan · 5,000 simulasi per rute
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
         </p>
       </div>
 
@@ -24,7 +28,11 @@ export default function ComparisonSection() {
             <div className="mt-5 grid grid-cols-2 items-end gap-4">
               <div>
                 <p className="text-[11px] font-medium tracking-wider text-slate-400 uppercase">
+<<<<<<< HEAD
+                  ESTIMASI BIAYA BULANAN
+=======
                   Estimasi Biaya Bulanan
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 </p>
                 <p className="text-orange-2xl mt-1.5 font-mono text-2xl font-bold tracking-tight">
                   Rp 285.400
@@ -32,7 +40,11 @@ export default function ComparisonSection() {
               </div>
 
               <div>
+<<<<<<< HEAD
+                <p className="text-xs text-slate-400">Variansi biaya</p>
+=======
                 <p className="text-xs text-slate-400">Varians Biaya</p>
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 <p className="mt-1 font-mono text-xs font-medium text-slate-700">
                   745.290.000 Rp²
                 </p>
@@ -68,7 +80,11 @@ export default function ComparisonSection() {
             <div className="mt-5 grid grid-cols-2 items-end gap-4">
               <div>
                 <p className="text-[11px] font-medium tracking-wider text-slate-400 uppercase">
+<<<<<<< HEAD
+                  ESTIMASI BIAYA BULANAN
+=======
                   Estimasi Biaya Bulanan
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 </p>
                 <p className="text-orange-2xl mt-1.5 font-mono text-2xl font-bold tracking-tight">
                   Rp 243.400
@@ -76,7 +92,11 @@ export default function ComparisonSection() {
               </div>
 
               <div>
+<<<<<<< HEAD
+                <p className="text-xs text-slate-400">Variansi biaya</p>
+=======
                 <p className="text-xs text-slate-400">Varians biaya</p>
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 <p className="mt-1 font-mono text-xs font-medium text-slate-700">
                   447.174.000 Rp²
                 </p>
@@ -103,7 +123,11 @@ export default function ComparisonSection() {
         <div className="bg-orange-sm text-orange-xl mt-6 flex items-center gap-2 rounded-xl px-4 py-3 text-xs font-semibold">
           <ArrowUpRight className="size-4 shrink-0" />
           <span>
+<<<<<<< HEAD
+            Rute B hemat ~Rp 42.000/bulan dengan variansi biaya 40% lebih rendah.
+=======
             Rute B hemat ~Rp 42.000/bulan dengan varians biaya 40% lebih rendah.
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
           </span>
         </div>
       </div>

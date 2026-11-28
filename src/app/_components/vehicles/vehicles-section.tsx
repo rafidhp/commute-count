@@ -40,14 +40,24 @@ export default function VehiclesSection() {
       <div className="flex items-center justify-between h-10">
         <div className="flex items-baseline gap-3">
           <h2 className="text-orange-2xl text-lg font-semibold tracking-tight">
+<<<<<<< HEAD
+            Motor Gw
+=======
             Kendaraan Saya
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
           </h2>
           <span className="text-xs text-slate-400">
             {VEHICLES_DATA.length} kendaraan tersimpan
           </span>
         </div>
+<<<<<<< HEAD
+
+        <Button className="bg-orange-lg hover:bg-orange-lg/90 text-orange-2xl cursor-pointer rounded-lg px-4 font-semibold shadow-none">
+          <Plus className="mr-1.5 size-4" />
+=======
         <Button className="bg-orange-lg hover:bg-orange-lg/90 text-orange-2xl cursor-pointer rounded-lg px-4 font-semibold shadow-none h-full">
           <Plus className="mr-1.5 size-4 font-semibold" />
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
           Tambah Kendaraan
         </Button>
       </div>
@@ -71,13 +81,13 @@ export default function VehiclesSection() {
                   <h3 className="text-orange-2xl text-base font-semibold">
                     {vehicle.name}
                   </h3>
-                  <p className="text-xs text-slate-400">{vehicle.subtitle}</p>
+                  <p className="text-xs text-slate-400">{vehicle.subtitle === "Daily ride" ? "Motor harian" : vehicle.subtitle === "Weekend ride" ? "Motor weekend" : vehicle.subtitle}</p>
                 </div>
               </div>
 
               {vehicle.isDefault ? (
                 <span className="bg-orange-sm text-orange-xl rounded-full px-3 py-1 text-xs font-medium">
-                  Default
+                  Utama
                 </span>
               ) : (
                 <button
@@ -95,7 +105,11 @@ export default function VehiclesSection() {
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <p className="text-[11px] font-medium tracking-wider text-slate-400 uppercase">
+<<<<<<< HEAD
+                  EFISIENSI
+=======
                   Efisiensi
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 </p>
                 <p className="text-orange-2xl mt-1 font-mono text-base font-semibold">
                   {vehicle.efficiency}
@@ -104,7 +118,11 @@ export default function VehiclesSection() {
 
               <div>
                 <p className="text-[11px] font-medium tracking-wider text-slate-400 uppercase">
+<<<<<<< HEAD
+                  JENIS BBM
+=======
                   Jenis BBM
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
                 </p>
                 <div className="mt-1 flex items-baseline justify-between gap-2">
                   <span className="text-orange-2xl text-sm font-medium">
@@ -128,7 +146,11 @@ export default function VehiclesSection() {
             Tambah Kendaraan Baru
           </span>
           <span className="mt-1 text-xs text-slate-400">
+<<<<<<< HEAD
+            Bandingin sama motor lain.
+=======
             Bandingkan Kendaraan Lainnya.
+>>>>>>> d8df5f338ba4e8da30610f22ba398cb486647adf
           </span>
         </button>
       </div>
